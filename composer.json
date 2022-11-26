@@ -1,0 +1,12 @@
+{
+    "name": "bisix21/project.localhost",
+    "autoload": {
+        "psr-4": {
+            "Bisix21\\ProjectLocalhost\\": "src/"
+        }
+    },
+    "require": {
+        "larapack/dd": "^1.1",
+      "ext-pdo": "*"
+    }
+}

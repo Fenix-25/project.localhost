@@ -1,0 +1,36 @@
+database php_lesson
+
+Table Content
+- id
+- name
+- content
+
+Table Users
+- id
+- name
+- username
+- password
+- created_at
+
+Table Products
+- id
+- title
+- description
+- price
+- quantity
+- is_option
+- created_at
+
+Table Orders
+- id
+- user_id
+- total
+- created_at
+
+Table orders_products
+- id
+- order_id
+- product_id
+- quantity
+- single_price
+- options
